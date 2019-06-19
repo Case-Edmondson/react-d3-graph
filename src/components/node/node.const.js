@@ -8,6 +8,6 @@ export default {
     },
     DEFAULT_NODE_SIZE: CONFIG.node.size,
     NODE_LABEL_DX: "0em",
-    NODE_LABEL_DY: ".35em",
+    NODE_LABEL_DY: "0em",
     ...CONST,
 };
