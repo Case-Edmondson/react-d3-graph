@@ -84,12 +84,14 @@ export default class Node extends React.Component {
         };
 
         const textProps = {
-            dx: this.props.dx || CONST.NODE_LABEL_DX,
+            dx: CONST.NODE_LABEL_DX,
             dy: CONST.NODE_LABEL_DY,
             fill: this.props.fontColor,
             fontSize: this.props.fontSize,
             fontWeight: this.props.fontWeight,
             opacity: this.props.opacity,
+            'text-align': 'middle',
+            'alignment-baseline': 'middle'
         };
 
         const size = this.props.size;
