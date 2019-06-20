@@ -93,7 +93,7 @@
     "main": "src/index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/danielcaldas/react-d3-graph.git"
+        "url": "git+https://github.com/Case-Edmondson/react-d3-graph.git"
     },
     "keywords": [
         "d3-visualization",
